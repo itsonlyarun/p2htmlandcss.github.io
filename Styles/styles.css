@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow : hidden hides the content at the time of resizing  */
+    /* overflow: hidden; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+body{
+    /* height: 100vh; */
+    background-color: #f9f5ed;
+   
+}
+header{
+    height: 50%;
+}
+nav{
+    background-color: #c4f3ae;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 20px 2%;
+    height: 15vh;
+    gap: 10%;
+}
+main{
+    /* height: 40vw; */
+    height: initial;
+    /* width: 40% 60%; */
+    background-image: linear-gradient(to bottom, orange 10% , white , green);
+    /* background-image: conic-gradient( orange,white,green); */
+    /* background-image: radial-gradient(circle, blue); */
+    /* background-image: radial-gradient(circle, red,yellow,aqua,pink,blue); */
+    /* background-image: repeating-radial-gradient(ellipse, red 8%,yellow 10%,aqua 12%,pink 10%,blue 7%); */
+    /* background-image: conic-gradient( red 120deg,yellow ,aqua ,pink ,blue ); */
+    /* background-image: conic-gradient( red 120deg,yellow ,aqua ,pink ,blue ); */
+}
+.logo{
+    display: flex;
+    gap:15px;
+    margin: 0% 0% 0% 6%;
+    padding: 1% 0% 0% 0%;
+}
+/* ---or-- */
+/* .logo-area{
+    display: flex;
+    gap:15px;
+    margin: 0% 0% 0% 6%;
+    padding: 1% 0% 0% 0%;
+} */
+/* .logo-green{
+    height: 8vh;
+    width: 8vh;
+    background-color: green;
+    border-radius: 50%;
+} */
+/* .logo-content{
+    font-size: 8vh;
+    font-weight: 700;
+} */
+
+.head-li-items{
+    display: flex;
+    gap: 30px;
+    font-size: 4vh;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2% 0% 0% 0%;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    background-color: #06eff7;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 5vh;
+}
+a{
+    text-decoration: none;
+}
+.main-section{
+    /* height: 40vw; */
+    display: flex;
+    align-items: center;
+    /* background-color: #b0bccc; */
+    justify-content: center;
+}
+.left-main{
+    display: block;
+    /* display: flex; */
+    align-items:start;
+    justify-content: center;
+    margin:5% 0% 15% 7%;
+    /* pad:40% 50% 10% 15% ; */
+    /* width: 40%; */
+
+}
+h1{
+    margin:5% 2% 2% 5px ;
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+p{
+    margin:0% 0% 1% 5px ;
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    margin:1% 10% 1% 5px ;
+    background: hsl(103, 69%, 41%);
+    color: white;
+    border: 2px solid rgb(19, 153, 19);
+    border-radius: 20px;
+    padding: 1% 2% 1% 2%;
+}
+.right-main{
+    margin:7% 7% 5% 15% ;
+}
+img{
+    border-radius: 10px;
+}
